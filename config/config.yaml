@@ -1,0 +1,50 @@
+model:
+  name: "bert-base-uncased"
+  max_length: 512
+  num_labels: 2  # normal, anomaly
+  learning_rate: 2e-5
+  batch_size: 16
+  epochs: 3
+  
+data:
+  synthetic_logs:
+    count: 10000
+    anomaly_rate: 0.1
+    log_types: ["access", "error", "security", "system"]
+  
+preprocessing:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  max_features: 5000
+  similarity_threshold: 0.8
+  
+monitoring:
+  log_paths: 
+    - "/var/log/"
+    - "./logs/"
+  check_interval: 5  # seconds
+  batch_size: 100
+  
+alerting:
+  email:
+    enabled: true
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    sender: "alerts@loglens.ai"
+    recipients: ["admin@company.com"]
+  
+  webhook:
+    enabled: false
+    url: "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+  
+  prometheus:
+    enabled: true
+    port: 8000
+    
+deployment:
+  docker:
+    image_name: "loglens"
+    port: 8080
+    
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

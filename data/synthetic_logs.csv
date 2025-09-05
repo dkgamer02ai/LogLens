@@ -1,0 +1,1001 @@
+timestamp,level,source,message,is_anomaly
+2025-09-04 04:09:04,DEBUG,access,GET /dashboard - 200 OK - 57ms,0
+2025-09-04 13:34:54,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 09:36:09,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 05:00:49,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 15:40:25,DEBUG,access,User charlie accessed resource /api/users,0
+2025-09-04 19:47:21,WARN,access,GET /api/users/9763 - 200 OK - 322ms,0
+2025-09-04 14:21:49,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 02:06:54,INFO,security,Password policy compliance check passed,0
+2025-09-05 01:22:50,INFO,system,Service payment-service started successfully,0
+2025-09-04 03:01:05,DEBUG,access,GET /dashboard - 200 OK - 198ms,0
+2025-09-04 03:24:00,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 02:09:49,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 07:17:01,ALERT,system,CRITICAL: Service user-service crashed unexpectedly,1
+2025-09-04 04:52:45,INFO,access,GET /dashboard - 200 OK - 156ms,0
+2025-09-04 21:03:41,DEBUG,security,SSL certificate validated for api.company.com,0
+2025-09-04 11:12:26,INFO,access,User charlie accessed resource /admin,0
+2025-09-04 09:04:02,DEBUG,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 11:51:24,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-05 02:09:41,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 16:19:31,ALERT,access,WARNING: Brute force attack detected from 192.168.1.10,1
+2025-09-04 10:26:30,INFO,security,Firewall rule updated for 10.0.0.5,0
+2025-09-04 02:32:26,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 02:54:22,WARN,system,Scheduled backup completed - 91MB,0
+2025-09-04 06:17:47,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 12:15:33,DEBUG,security,Access token refreshed for user bob,0
+2025-09-04 15:32:09,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 04:23:18,DEBUG,system,Database connection established,0
+2025-09-04 20:46:51,INFO,access,GET /api/users/5590 - 200 OK - 429ms,0
+2025-09-04 17:48:25,INFO,system,System health check completed successfully,0
+2025-09-04 11:38:59,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 08:05:52,DEBUG,access,User charlie accessed resource /dashboard,0
+2025-09-04 07:07:43,DEBUG,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 09:44:25,CRITICAL,access,CRITICAL: Privileged escalation attempt by user alice,1
+2025-09-04 01:17:13,WARN,access,User bob accessed resource /reports,0
+2025-09-05 01:55:19,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 22:15:26,WARN,security,Access token refreshed for user eve,0
+2025-09-04 23:19:39,WARN,system,Scheduled backup completed - 29MB,0
+2025-09-04 09:20:14,INFO,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 15:46:06,WARN,system,Scheduled backup completed - 63MB,0
+2025-09-04 19:35:01,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 03:14:10,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 01:41:49,INFO,access,User eve successfully logged in from 203.0.113.45,0
+2025-09-04 03:26:54,WARN,security,Access token refreshed for user frank,0
+2025-09-04 22:50:08,DEBUG,system,Scheduled backup completed - 21MB,0
+2025-09-04 11:12:11,ALERT,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 04:46:46,WARN,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 07:15:34,INFO,security,Access token refreshed for user eve,0
+2025-09-04 04:49:45,DEBUG,system,Database connection established,0
+2025-09-04 22:49:11,INFO,access,User diana successfully logged in from 192.168.1.10,0
+2025-09-04 20:40:26,WARN,access,User bob accessed resource /settings,0
+2025-09-04 02:24:45,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 03:06:15,DEBUG,access,User alice successfully logged in from 10.0.0.5,0
+2025-09-04 03:06:17,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 08:55:36,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 22:01:43,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 03:09:32,INFO,system,Database connection established,0
+2025-09-04 01:07:49,DEBUG,system,Scheduled backup completed - 80MB,0
+2025-09-05 02:30:55,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 17:01:04,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 04:01:23,INFO,security,SSL certificate validated for app.company.com,0
+2025-09-05 01:15:32,WARN,system,System health check completed successfully,0
+2025-09-04 20:35:30,INFO,system,Cache cleared - 841 items removed,0
+2025-09-04 19:37:29,INFO,system,Database connection established,0
+2025-09-04 10:37:46,ALERT,error,FATAL: Memory leak causing system instability,1
+2025-09-04 22:24:34,DEBUG,system,Database connection established,0
+2025-09-04 19:55:48,INFO,system,Scheduled backup completed - 74MB,0
+2025-09-04 05:21:11,INFO,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 05:37:42,DEBUG,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 12:54:28,WARN,security,Security scan completed - no threats detected,0
+2025-09-05 00:24:15,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-05 01:09:18,FATAL,error,CRITICAL: Cascade failure in microservices,1
+2025-09-05 01:55:52,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 21:48:24,DEBUG,error,Non-critical error in notification - operation continued,0
+2025-09-04 15:39:57,WARNING,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 03:37:34,WARN,system,Service user-service started successfully,0
+2025-09-04 15:01:33,INFO,access,User alice accessed resource /api/users,0
+2025-09-04 07:25:21,WARN,access,User eve accessed resource /reports,0
+2025-09-04 17:08:55,WARN,security,Access token refreshed for user diana,0
+2025-09-04 10:12:19,DEBUG,security,SSL certificate validated for app.company.com,0
+2025-09-04 12:47:18,DEBUG,system,Cache cleared - 501 items removed,0
+2025-09-04 16:32:05,INFO,access,GET /dashboard - 200 OK - 240ms,0
+2025-09-04 22:00:24,DEBUG,error,Non-critical error in notification - operation continued,0
+2025-09-04 03:40:59,INFO,access,GET /api/users/5644 - 200 OK - 489ms,0
+2025-09-04 08:51:43,FATAL,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 19:07:00,WARN,system,System health check completed successfully,0
+2025-09-04 12:26:21,ALERT,security,CRITICAL: Data exfiltration attempt blocked,1
+2025-09-04 22:55:32,DEBUG,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 04:21:33,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 16:44:24,DEBUG,access,User charlie accessed resource /api/users,0
+2025-09-04 01:36:12,WARN,system,Scheduled backup completed - 17MB,0
+2025-09-05 00:27:42,ALERT,access,CRITICAL: Privileged escalation attempt by user eve,1
+2025-09-04 15:17:36,WARN,access,GET /dashboard - 200 OK - 294ms,0
+2025-09-04 15:08:47,WARN,system,Service auth-service started successfully,0
+2025-09-04 11:27:50,WARN,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 14:14:24,DEBUG,access,User bob successfully logged in from 192.168.1.10,0
+2025-09-04 16:32:05,WARN,access,User bob accessed resource /dashboard,0
+2025-09-04 12:53:46,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 08:03:04,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 05:20:21,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 06:28:06,DEBUG,system,Database connection established,0
+2025-09-04 22:47:01,WARN,system,Scheduled backup completed - 64MB,0
+2025-09-04 12:27:34,WARN,security,Password policy compliance check passed,0
+2025-09-04 11:17:58,WARN,system,Database connection established,0
+2025-09-04 08:06:36,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 17:07:38,INFO,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 07:53:00,FATAL,access,CRITICAL: Multiple failed login attempts from 192.168.1.10 - 32 attempts,1
+2025-09-04 01:58:56,WARN,access,GET /dashboard - 200 OK - 406ms,0
+2025-09-04 22:48:28,WARN,error,Non-critical error in user - operation continued,0
+2025-09-04 20:37:38,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 13:16:48,WARN,access,GET /api/users/3118 - 200 OK - 432ms,0
+2025-09-05 00:50:19,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 19:15:28,WARN,security,SSL certificate validated for api.company.com,0
+2025-09-04 22:08:24,WARN,access,User frank successfully logged in from 203.0.113.45,0
+2025-09-04 05:22:04,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 17:56:21,INFO,access,GET /api/users/6719 - 200 OK - 362ms,0
+2025-09-04 20:05:41,ALERT,security,CRITICAL: Data exfiltration attempt blocked,1
+2025-09-05 02:31:59,DEBUG,system,Database connection established,0
+2025-09-04 14:07:11,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 21:57:45,DEBUG,system,Cache cleared - 465 items removed,0
+2025-09-04 23:32:27,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 01:17:37,DEBUG,system,Cache cleared - 943 items removed,0
+2025-09-04 23:28:50,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 05:36:47,WARNING,security,ALERT: Suspicious file modification detected,1
+2025-09-05 00:36:59,WARN,system,Database connection established,0
+2025-09-04 19:42:11,WARN,security,Password policy compliance check passed,0
+2025-09-04 21:59:43,INFO,security,SSL certificate validated for app.company.com,0
+2025-09-04 17:59:30,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 06:00:10,WARN,access,User eve successfully logged in from 192.168.1.10,0
+2025-09-04 07:39:12,WARN,security,Password policy compliance check passed,0
+2025-09-04 07:47:21,INFO,system,Database connection established,0
+2025-09-04 20:43:31,WARN,access,User frank successfully logged in from 203.0.113.45,0
+2025-09-04 16:19:56,WARN,error,Non-critical error in user - operation continued,0
+2025-09-04 21:29:07,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 08:31:44,WARN,access,GET /dashboard - 200 OK - 101ms,0
+2025-09-05 00:00:39,DEBUG,system,System health check completed successfully,0
+2025-09-04 19:23:49,DEBUG,system,Scheduled backup completed - 31MB,0
+2025-09-04 21:59:08,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 12:51:41,CRITICAL,system,CRITICAL: Database connection pool exhausted,1
+2025-09-05 00:59:05,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 06:06:41,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 16:55:21,INFO,error,Invalid request format - missing required field,0
+2025-09-04 11:27:33,WARN,system,Service notification-service started successfully,0
+2025-09-04 02:54:32,DEBUG,system,Database connection established,0
+2025-09-04 07:05:41,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 07:11:40,DEBUG,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 13:46:05,INFO,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 11:29:17,WARN,security,Password policy compliance check passed,0
+2025-09-04 17:47:32,INFO,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-04 22:49:17,INFO,access,User frank accessed resource /settings,0
+2025-09-04 07:53:41,DEBUG,system,System health check completed successfully,0
+2025-09-04 10:56:00,INFO,system,Database connection established,0
+2025-09-04 14:11:42,DEBUG,system,Cache cleared - 662 items removed,0
+2025-09-05 00:12:49,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 20:14:13,CRITICAL,system,ALERT: Disk space critically low - 4% remaining,1
+2025-09-04 22:17:36,WARN,system,Service payment-service started successfully,0
+2025-09-04 20:12:19,WARN,security,Password policy compliance check passed,0
+2025-09-04 21:55:49,INFO,access,GET /api/users/5783 - 200 OK - 353ms,0
+2025-09-04 19:39:56,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 23:49:15,INFO,access,GET /api/users/4253 - 200 OK - 349ms,0
+2025-09-04 08:40:43,WARN,system,Database connection established,0
+2025-09-04 02:56:58,INFO,access,GET /api/users/8172 - 200 OK - 91ms,0
+2025-09-04 20:44:37,DEBUG,system,Scheduled backup completed - 44MB,0
+2025-09-04 22:23:24,WARN,access,GET /api/users/6370 - 200 OK - 299ms,0
+2025-09-04 04:45:20,INFO,system,Service notification-service started successfully,0
+2025-09-04 22:52:36,DEBUG,security,Access token refreshed for user charlie,0
+2025-09-04 18:37:13,ALERT,access,WARNING: Brute force attack detected from 192.168.1.10,1
+2025-09-04 18:26:16,DEBUG,system,System health check completed successfully,0
+2025-09-04 06:51:53,INFO,error,Non-critical error in auth - operation continued,0
+2025-09-04 22:04:10,INFO,access,GET /dashboard - 200 OK - 124ms,0
+2025-09-04 00:47:35,WARN,security,SSL certificate validated for api.company.com,0
+2025-09-04 14:57:12,WARN,system,Database connection established,0
+2025-09-04 20:18:44,INFO,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 02:06:15,DEBUG,access,User alice accessed resource /api/users,0
+2025-09-04 02:04:39,WARN,error,Invalid request format - missing required field,0
+2025-09-04 08:55:01,DEBUG,system,Scheduled backup completed - 18MB,0
+2025-09-04 19:39:25,DEBUG,system,Scheduled backup completed - 84MB,0
+2025-09-04 12:21:58,DEBUG,system,Scheduled backup completed - 86MB,0
+2025-09-04 15:24:05,ALERT,system,ALERT: Disk space critically low - 2% remaining,1
+2025-09-04 01:38:36,DEBUG,system,Cache cleared - 845 items removed,0
+2025-09-04 02:12:30,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 03:23:50,INFO,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 15:07:17,ALERT,access,ALERT: Unusual access pattern detected for user bob,1
+2025-09-04 04:07:27,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-05 00:09:15,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-04 20:51:16,WARN,error,Invalid request format - missing required field,0
+2025-09-04 04:15:42,WARN,error,Invalid request format - missing required field,0
+2025-09-04 05:59:14,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 05:22:41,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 05:31:55,WARN,security,Access token refreshed for user frank,0
+2025-09-04 17:26:23,INFO,system,Cache cleared - 722 items removed,0
+2025-09-04 03:32:37,WARN,access,GET /dashboard - 200 OK - 489ms,0
+2025-09-04 02:21:20,INFO,error,Non-critical error in notification - operation continued,0
+2025-09-04 06:18:27,INFO,system,Cache cleared - 144 items removed,0
+2025-09-04 18:03:14,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 08:59:19,WARN,security,Password policy compliance check passed,0
+2025-09-04 20:03:00,INFO,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-04 08:38:04,DEBUG,security,Access token refreshed for user alice,0
+2025-09-04 08:29:52,DEBUG,access,GET /api/users/1993 - 200 OK - 301ms,0
+2025-09-04 18:35:25,WARNING,access,CRITICAL: Multiple failed login attempts from 203.0.113.45 - 33 attempts,1
+2025-09-04 04:36:13,FATAL,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 20:10:49,INFO,system,Cache cleared - 274 items removed,0
+2025-09-04 21:41:38,DEBUG,system,Cache cleared - 363 items removed,0
+2025-09-04 06:18:31,WARN,system,System health check completed successfully,0
+2025-09-04 19:34:55,CRITICAL,system,CRITICAL: System memory usage at 98% - immediate action required,1
+2025-09-04 03:00:34,WARN,system,Database connection established,0
+2025-09-04 18:31:16,WARN,access,GET /api/users/3335 - 200 OK - 153ms,0
+2025-09-04 07:47:04,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 10:30:13,WARN,access,GET /api/users/6363 - 200 OK - 358ms,0
+2025-09-04 02:00:30,DEBUG,access,GET /api/users/3357 - 200 OK - 138ms,0
+2025-09-04 19:00:24,DEBUG,error,Non-critical error in payment - operation continued,0
+2025-09-04 16:30:47,WARNING,error,CRITICAL: Cascade failure in microservices,1
+2025-09-04 19:12:49,DEBUG,error,Non-critical error in payment - operation continued,0
+2025-09-04 23:13:27,WARN,access,User charlie accessed resource /api/users,0
+2025-09-04 04:35:07,ALERT,system,CRITICAL: System memory usage at 98% - immediate action required,1
+2025-09-04 05:46:03,ALERT,access,CRITICAL: Multiple failed login attempts from 10.0.0.5 - 24 attempts,1
+2025-09-04 08:48:12,INFO,system,Cache cleared - 960 items removed,0
+2025-09-04 20:57:40,INFO,system,System health check completed successfully,0
+2025-09-04 11:06:29,INFO,system,Database connection established,0
+2025-09-04 16:44:27,INFO,security,Access token refreshed for user alice,0
+2025-09-04 15:47:36,INFO,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 16:59:53,WARN,security,Password policy compliance check passed,0
+2025-09-04 10:03:10,DEBUG,security,Access token refreshed for user eve,0
+2025-09-04 19:56:09,DEBUG,system,Cache cleared - 834 items removed,0
+2025-09-04 05:04:04,INFO,security,Password policy compliance check passed,0
+2025-09-04 20:59:07,WARNING,security,ALERT: Suspicious file modification detected,1
+2025-09-04 07:59:41,WARN,access,User bob successfully logged in from 172.16.0.100,0
+2025-09-04 19:31:20,INFO,security,Access token refreshed for user diana,0
+2025-09-04 06:08:06,WARN,system,Scheduled backup completed - 55MB,0
+2025-09-05 01:00:26,FATAL,access,WARNING: Brute force attack detected from 10.0.0.5,1
+2025-09-05 00:24:03,INFO,system,Service notification-service started successfully,0
+2025-09-04 20:27:15,INFO,system,Cache cleared - 409 items removed,0
+2025-09-04 19:18:53,DEBUG,access,GET /dashboard - 200 OK - 437ms,0
+2025-09-04 09:34:49,DEBUG,access,GET /api/users/4425 - 200 OK - 463ms,0
+2025-09-05 00:31:27,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 02:27:28,WARN,error,Non-critical error in payment - operation continued,0
+2025-09-04 01:29:40,FATAL,error,CRITICAL: Database corruption detected,1
+2025-09-04 12:18:02,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 22:25:38,WARN,access,User diana successfully logged in from 172.16.0.100,0
+2025-09-04 14:21:22,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 22:23:18,WARN,security,Password policy compliance check passed,0
+2025-09-04 18:59:22,FATAL,security,ALERT: Suspicious file modification detected,1
+2025-09-04 09:05:44,DEBUG,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 11:57:08,DEBUG,security,Access token refreshed for user alice,0
+2025-09-04 22:19:16,DEBUG,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-05 01:27:10,ALERT,error,CRITICAL: Database corruption detected,1
+2025-09-04 17:31:22,DEBUG,system,Database connection established,0
+2025-09-04 00:42:29,WARN,security,Firewall rule updated for 10.0.0.5,0
+2025-09-04 18:52:30,INFO,system,Database connection established,0
+2025-09-04 23:11:09,WARN,access,User charlie successfully logged in from 192.168.1.10,0
+2025-09-04 19:55:39,DEBUG,system,Database connection established,0
+2025-09-04 11:10:42,INFO,error,Invalid request format - missing required field,0
+2025-09-04 04:46:34,WARN,access,User charlie successfully logged in from 10.0.0.5,0
+2025-09-04 13:57:10,CRITICAL,security,CRITICAL: SQL injection attempt detected in query,1
+2025-09-04 20:03:58,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 03:13:08,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 19:59:37,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 23:40:25,INFO,security,Password policy compliance check passed,0
+2025-09-04 17:10:16,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 22:59:40,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 02:59:21,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 07:43:12,WARN,system,System health check completed successfully,0
+2025-09-04 23:54:19,DEBUG,error,Non-critical error in notification - operation continued,0
+2025-09-04 16:50:21,DEBUG,security,Access token refreshed for user charlie,0
+2025-09-04 08:34:29,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 20:53:31,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 03:49:49,WARN,system,Service user-service started successfully,0
+2025-09-05 00:30:15,WARN,security,Security scan completed - no threats detected,0
+2025-09-05 00:54:27,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 11:43:48,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 16:11:05,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-05 00:19:05,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 01:25:38,WARNING,security,ALERT: Suspicious file modification detected,1
+2025-09-04 09:22:23,INFO,error,Invalid request format - missing required field,0
+2025-09-04 02:42:03,WARN,system,Database connection established,0
+2025-09-04 20:40:51,INFO,system,System health check completed successfully,0
+2025-09-05 00:10:18,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 15:00:00,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 17:30:29,WARN,system,Scheduled backup completed - 53MB,0
+2025-09-04 16:39:29,DEBUG,system,System health check completed successfully,0
+2025-09-04 16:11:34,INFO,system,Service payment-service started successfully,0
+2025-09-04 09:50:39,WARN,error,Non-critical error in auth - operation continued,0
+2025-09-04 06:00:12,WARN,access,User charlie accessed resource /settings,0
+2025-09-04 19:41:04,DEBUG,system,Cache cleared - 257 items removed,0
+2025-09-04 20:27:42,INFO,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 14:51:47,WARN,system,Service payment-service started successfully,0
+2025-09-04 12:19:41,DEBUG,security,Access token refreshed for user diana,0
+2025-09-04 10:27:10,WARN,error,Invalid request format - missing required field,0
+2025-09-04 11:01:10,DEBUG,access,GET /api/users/9320 - 200 OK - 86ms,0
+2025-09-04 06:27:37,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 08:02:27,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 16:05:23,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 02:07:00,INFO,access,GET /api/users/5467 - 200 OK - 391ms,0
+2025-09-04 14:08:40,INFO,system,Cache cleared - 263 items removed,0
+2025-09-04 21:44:42,WARN,security,Password policy compliance check passed,0
+2025-09-04 16:18:31,WARN,access,GET /api/users/2705 - 200 OK - 122ms,0
+2025-09-04 16:25:46,DEBUG,system,Database connection established,0
+2025-09-04 20:18:14,FATAL,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 04:34:26,INFO,access,GET /api/users/1307 - 200 OK - 190ms,0
+2025-09-04 09:55:52,DEBUG,access,User alice accessed resource /admin,0
+2025-09-04 17:15:06,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 21:58:11,INFO,system,Database connection established,0
+2025-09-04 08:19:14,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 01:14:30,INFO,system,System health check completed successfully,0
+2025-09-04 19:27:50,WARN,security,Security scan completed - no threats detected,0
+2025-09-05 02:06:36,DEBUG,security,SSL certificate validated for api.company.com,0
+2025-09-05 02:14:00,INFO,error,Invalid request format - missing required field,0
+2025-09-04 07:20:22,DEBUG,system,System health check completed successfully,0
+2025-09-04 21:19:20,INFO,system,Scheduled backup completed - 37MB,0
+2025-09-05 00:06:16,WARN,system,System health check completed successfully,0
+2025-09-04 19:05:49,WARN,system,Cache cleared - 113 items removed,0
+2025-09-04 15:28:13,WARN,error,Non-critical error in payment - operation continued,0
+2025-09-04 18:57:18,CRITICAL,security,ALERT: Suspicious file modification detected,1
+2025-09-04 20:13:13,WARN,error,Invalid request format - missing required field,0
+2025-09-04 19:05:59,DEBUG,system,Service notification-service started successfully,0
+2025-09-04 15:40:39,DEBUG,security,Access token refreshed for user frank,0
+2025-09-04 07:38:10,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 06:15:24,DEBUG,access,User alice successfully logged in from 192.168.1.10,0
+2025-09-04 12:29:36,DEBUG,security,Access token refreshed for user eve,0
+2025-09-04 11:13:29,FATAL,system,CRITICAL: System memory usage at 98% - immediate action required,1
+2025-09-04 04:02:19,INFO,system,Cache cleared - 966 items removed,0
+2025-09-04 06:06:42,INFO,system,System health check completed successfully,0
+2025-09-04 01:45:57,INFO,access,User eve successfully logged in from 172.16.0.100,0
+2025-09-05 00:44:49,DEBUG,system,Service notification-service started successfully,0
+2025-09-04 03:40:03,WARN,security,SSL certificate validated for api.company.com,0
+2025-09-04 01:43:30,INFO,system,Service auth-service started successfully,0
+2025-09-04 04:54:29,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 06:40:05,WARN,security,Access token refreshed for user charlie,0
+2025-09-04 22:25:54,INFO,access,User frank successfully logged in from 172.16.0.100,0
+2025-09-04 06:23:28,WARN,security,Firewall rule updated for 10.0.0.5,0
+2025-09-04 04:31:38,WARN,access,User bob accessed resource /admin,0
+2025-09-04 11:44:56,INFO,access,GET /dashboard - 200 OK - 252ms,0
+2025-09-04 07:18:21,WARN,system,Service user-service started successfully,0
+2025-09-04 16:52:31,WARN,security,Firewall rule updated for 203.0.113.45,0
+2025-09-05 02:32:13,DEBUG,security,Access token refreshed for user charlie,0
+2025-09-04 23:07:22,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 08:42:20,INFO,security,Access token refreshed for user bob,0
+2025-09-05 02:06:52,DEBUG,system,Service payment-service started successfully,0
+2025-09-04 05:46:56,ALERT,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 18:42:58,WARN,access,User charlie accessed resource /admin,0
+2025-09-04 18:05:13,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 10:49:19,WARNING,system,ALERT: Unusual CPU spike detected - 91% usage,1
+2025-09-04 07:46:26,WARN,security,Firewall rule updated for 192.168.1.10,0
+2025-09-05 00:31:45,DEBUG,system,System health check completed successfully,0
+2025-09-04 23:55:22,INFO,error,Non-critical error in user - operation continued,0
+2025-09-04 08:14:11,INFO,security,Password policy compliance check passed,0
+2025-09-04 06:32:37,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-05 00:46:22,DEBUG,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 06:20:59,ALERT,error,FATAL: Memory leak causing system instability,1
+2025-09-04 07:06:46,DEBUG,access,User alice successfully logged in from 203.0.113.45,0
+2025-09-04 20:07:29,WARN,system,Cache cleared - 744 items removed,0
+2025-09-05 01:39:44,WARN,access,User alice successfully logged in from 192.168.1.10,0
+2025-09-04 20:24:20,WARNING,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 13:23:37,INFO,access,User eve successfully logged in from 172.16.0.100,0
+2025-09-04 10:11:30,ALERT,system,ALERT: Disk space critically low - 1% remaining,1
+2025-09-04 20:05:00,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-05 00:16:11,DEBUG,security,SSL certificate validated for app.company.com,0
+2025-09-04 09:37:51,WARN,system,Cache cleared - 535 items removed,0
+2025-09-04 23:11:12,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 20:52:38,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 17:52:50,INFO,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 22:30:39,WARN,system,Database connection established,0
+2025-09-05 02:11:16,INFO,system,Cache cleared - 506 items removed,0
+2025-09-04 14:05:35,DEBUG,access,User frank successfully logged in from 192.168.1.10,0
+2025-09-04 16:50:14,INFO,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-04 11:00:50,DEBUG,access,GET /dashboard - 200 OK - 61ms,0
+2025-09-04 12:45:46,CRITICAL,system,ALERT: Disk space critically low - 4% remaining,1
+2025-09-04 18:43:36,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 05:10:07,FATAL,access,ALERT: Unusual access pattern detected for user bob,1
+2025-09-04 05:54:48,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-04 13:15:39,WARNING,access,ALERT: Access from blacklisted IP 10.0.0.5,1
+2025-09-05 00:17:14,INFO,system,System health check completed successfully,0
+2025-09-04 13:24:08,INFO,security,Access token refreshed for user eve,0
+2025-09-04 22:17:52,WARN,system,Cache cleared - 570 items removed,0
+2025-09-04 14:35:07,INFO,security,SSL certificate validated for secure.company.com,0
+2025-09-04 08:38:19,DEBUG,access,User diana successfully logged in from 192.168.1.10,0
+2025-09-04 07:21:40,WARNING,error,FATAL: Security breach - immediate containment required,1
+2025-09-05 01:38:30,DEBUG,access,GET /api/users/6734 - 200 OK - 108ms,0
+2025-09-04 00:56:39,WARN,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-04 11:03:38,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 08:53:14,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 23:29:49,DEBUG,system,Service payment-service started successfully,0
+2025-09-05 00:35:00,INFO,security,Access token refreshed for user charlie,0
+2025-09-04 03:14:18,WARNING,access,WARNING: Brute force attack detected from 10.0.0.5,1
+2025-09-04 09:50:06,DEBUG,access,GET /api/users/8277 - 200 OK - 246ms,0
+2025-09-05 00:17:17,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 16:11:00,WARN,system,Cache cleared - 355 items removed,0
+2025-09-05 00:14:58,WARNING,system,CRITICAL: Service payment-service crashed unexpectedly,1
+2025-09-04 05:10:52,DEBUG,system,Service user-service started successfully,0
+2025-09-04 12:55:54,DEBUG,error,Non-critical error in auth - operation continued,0
+2025-09-04 05:40:48,WARN,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 10:14:50,WARN,system,System health check completed successfully,0
+2025-09-04 23:58:11,WARN,access,GET /api/users/3509 - 200 OK - 419ms,0
+2025-09-04 07:59:02,INFO,error,Non-critical error in user - operation continued,0
+2025-09-04 09:57:48,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 05:37:48,WARNING,security,CRITICAL: Data exfiltration attempt blocked,1
+2025-09-05 02:10:21,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 09:53:47,INFO,access,User alice successfully logged in from 172.16.0.100,0
+2025-09-04 20:39:08,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 04:04:04,INFO,security,SSL certificate validated for app.company.com,0
+2025-09-04 03:26:01,WARN,system,System health check completed successfully,0
+2025-09-04 05:25:14,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 09:48:56,INFO,security,Access token refreshed for user diana,0
+2025-09-04 13:41:27,INFO,system,Database connection established,0
+2025-09-04 07:08:56,WARN,access,GET /api/users/9738 - 200 OK - 256ms,0
+2025-09-04 05:10:34,INFO,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 11:25:24,CRITICAL,security,CRITICAL: Unauthorized API access attempt,1
+2025-09-04 10:03:55,INFO,system,System health check completed successfully,0
+2025-09-04 12:21:53,DEBUG,system,System health check completed successfully,0
+2025-09-04 08:15:17,WARN,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 07:38:56,DEBUG,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 21:11:22,DEBUG,access,GET /api/users/2003 - 200 OK - 324ms,0
+2025-09-04 14:43:53,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 17:27:22,WARN,system,Service payment-service started successfully,0
+2025-09-04 17:19:37,INFO,security,Firewall rule updated for 192.168.1.10,0
+2025-09-05 00:12:57,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 10:22:03,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 17:06:39,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 05:43:47,INFO,security,Password policy compliance check passed,0
+2025-09-05 01:51:55,INFO,access,User bob successfully logged in from 172.16.0.100,0
+2025-09-04 04:54:04,WARN,access,GET /dashboard - 200 OK - 440ms,0
+2025-09-04 20:34:36,INFO,system,Cache cleared - 840 items removed,0
+2025-09-04 03:35:17,WARN,access,GET /dashboard - 200 OK - 70ms,0
+2025-09-04 18:39:18,DEBUG,system,Cache cleared - 221 items removed,0
+2025-09-04 09:59:59,INFO,access,User bob successfully logged in from 10.0.0.5,0
+2025-09-04 17:15:42,DEBUG,system,Cache cleared - 504 items removed,0
+2025-09-04 04:20:39,DEBUG,error,Non-critical error in payment - operation continued,0
+2025-09-04 17:53:31,WARN,system,Cache cleared - 209 items removed,0
+2025-09-04 08:53:02,WARN,access,GET /api/users/2816 - 200 OK - 269ms,0
+2025-09-04 03:01:31,INFO,system,Scheduled backup completed - 11MB,0
+2025-09-04 17:43:55,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 07:35:40,INFO,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 04:20:28,DEBUG,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-05 01:23:30,DEBUG,access,User alice accessed resource /dashboard,0
+2025-09-04 08:02:23,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 14:10:27,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 16:21:30,WARN,system,Database connection established,0
+2025-09-04 04:42:35,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 11:44:34,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 07:04:11,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 19:42:26,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 00:50:02,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 21:20:04,INFO,access,User alice successfully logged in from 192.168.1.10,0
+2025-09-05 01:30:38,INFO,error,Non-critical error in auth - operation continued,0
+2025-09-04 13:50:57,INFO,error,Non-critical error in auth - operation continued,0
+2025-09-04 10:40:45,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 01:24:34,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 02:17:34,DEBUG,access,User bob accessed resource /dashboard,0
+2025-09-05 00:42:59,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 10:54:25,DEBUG,system,System health check completed successfully,0
+2025-09-04 10:32:05,WARNING,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 12:06:54,DEBUG,system,Database connection established,0
+2025-09-04 23:38:47,DEBUG,access,User frank accessed resource /api/users,0
+2025-09-04 02:59:42,WARN,system,System health check completed successfully,0
+2025-09-04 10:57:55,INFO,access,GET /dashboard - 200 OK - 134ms,0
+2025-09-04 09:43:11,DEBUG,access,User frank accessed resource /settings,0
+2025-09-04 21:00:24,DEBUG,system,Service auth-service started successfully,0
+2025-09-04 10:42:26,INFO,access,User charlie accessed resource /api/users,0
+2025-09-04 02:10:26,WARN,system,System health check completed successfully,0
+2025-09-04 18:52:39,DEBUG,security,Access token refreshed for user diana,0
+2025-09-04 03:31:53,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 17:33:48,INFO,access,GET /api/users/6403 - 200 OK - 379ms,0
+2025-09-04 11:11:25,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 08:13:47,WARN,system,Service notification-service started successfully,0
+2025-09-05 01:07:44,CRITICAL,system,CRITICAL: System memory usage at 98% - immediate action required,1
+2025-09-04 09:51:13,INFO,security,Access token refreshed for user diana,0
+2025-09-04 07:23:06,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 14:27:42,DEBUG,security,Access token refreshed for user eve,0
+2025-09-04 11:42:06,INFO,system,Scheduled backup completed - 11MB,0
+2025-09-04 22:47:46,DEBUG,system,Scheduled backup completed - 84MB,0
+2025-09-04 23:38:09,DEBUG,access,GET /dashboard - 200 OK - 413ms,0
+2025-09-04 15:13:36,WARN,system,Database connection established,0
+2025-09-04 20:47:40,INFO,access,User eve accessed resource /admin,0
+2025-09-04 03:17:25,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-05 01:40:23,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-05 01:14:49,INFO,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-05 02:11:59,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 17:48:20,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-04 21:01:14,INFO,system,Database connection established,0
+2025-09-04 17:06:01,WARN,system,Cache cleared - 793 items removed,0
+2025-09-04 16:00:52,WARN,system,System health check completed successfully,0
+2025-09-05 01:32:14,INFO,security,Password policy compliance check passed,0
+2025-09-04 08:18:08,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 21:07:35,DEBUG,error,Non-critical error in user - operation continued,0
+2025-09-04 00:36:07,WARN,system,Cache cleared - 847 items removed,0
+2025-09-04 06:32:14,DEBUG,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-04 09:03:59,WARN,security,Access token refreshed for user eve,0
+2025-09-04 06:57:10,DEBUG,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 12:23:14,WARN,access,User charlie accessed resource /admin,0
+2025-09-04 22:30:47,DEBUG,system,Scheduled backup completed - 55MB,0
+2025-09-04 18:03:20,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 06:28:17,WARN,system,Service payment-service started successfully,0
+2025-09-04 19:17:57,ALERT,access,CRITICAL: Multiple failed login attempts from 203.0.113.45 - 16 attempts,1
+2025-09-04 18:37:22,DEBUG,access,GET /api/users/6360 - 200 OK - 100ms,0
+2025-09-04 23:14:03,DEBUG,access,GET /api/users/7234 - 200 OK - 86ms,0
+2025-09-04 13:04:26,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 18:48:58,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 13:28:17,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 22:24:04,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 02:00:22,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 16:47:23,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 16:26:24,CRITICAL,access,WARNING: Brute force attack detected from 172.16.0.100,1
+2025-09-04 12:27:19,INFO,error,Non-critical error in notification - operation continued,0
+2025-09-04 22:55:22,DEBUG,security,Access token refreshed for user diana,0
+2025-09-04 05:32:36,WARN,access,GET /api/users/6322 - 200 OK - 374ms,0
+2025-09-04 05:50:01,DEBUG,system,Service auth-service started successfully,0
+2025-09-04 18:21:12,DEBUG,access,User frank successfully logged in from 203.0.113.45,0
+2025-09-04 17:58:13,DEBUG,system,Scheduled backup completed - 91MB,0
+2025-09-04 19:24:53,ALERT,error,FATAL: Security breach - immediate containment required,1
+2025-09-04 06:59:45,DEBUG,system,Database connection established,0
+2025-09-04 04:27:31,INFO,access,GET /api/users/6061 - 200 OK - 88ms,0
+2025-09-04 01:46:09,INFO,error,Invalid request format - missing required field,0
+2025-09-04 09:36:21,INFO,access,User eve accessed resource /api/users,0
+2025-09-04 15:34:21,WARN,system,Cache cleared - 214 items removed,0
+2025-09-04 08:22:47,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 19:43:09,DEBUG,system,Database connection established,0
+2025-09-04 02:14:42,INFO,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-05 02:10:14,WARN,error,Invalid request format - missing required field,0
+2025-09-04 23:33:53,INFO,access,User frank accessed resource /dashboard,0
+2025-09-04 03:39:30,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 04:50:26,WARN,security,Password policy compliance check passed,0
+2025-09-04 17:54:25,DEBUG,access,User bob accessed resource /api/users,0
+2025-09-04 18:43:15,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 21:27:39,DEBUG,access,User alice accessed resource /settings,0
+2025-09-05 01:04:50,WARN,access,GET /api/users/1883 - 200 OK - 225ms,0
+2025-09-05 00:37:30,DEBUG,access,User eve accessed resource /api/users,0
+2025-09-04 08:21:48,WARN,system,System health check completed successfully,0
+2025-09-04 02:09:23,WARN,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 02:27:50,INFO,security,SSL certificate validated for secure.company.com,0
+2025-09-05 01:22:16,DEBUG,system,Database connection established,0
+2025-09-04 01:31:00,INFO,access,User frank successfully logged in from 203.0.113.45,0
+2025-09-04 20:45:15,INFO,system,Cache cleared - 787 items removed,0
+2025-09-04 21:22:53,INFO,access,GET /dashboard - 200 OK - 275ms,0
+2025-09-04 23:11:41,WARN,security,Access token refreshed for user alice,0
+2025-09-04 21:41:15,ALERT,system,CRITICAL: Database connection pool exhausted,1
+2025-09-04 16:06:27,DEBUG,access,GET /dashboard - 200 OK - 318ms,0
+2025-09-04 11:20:49,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 12:00:32,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 19:17:16,CRITICAL,security,ALERT: Suspicious file modification detected,1
+2025-09-04 10:57:29,INFO,access,User alice successfully logged in from 192.168.1.10,0
+2025-09-04 05:08:31,DEBUG,system,Scheduled backup completed - 75MB,0
+2025-09-04 02:51:07,CRITICAL,access,ALERT: Access from blacklisted IP 172.16.0.100,1
+2025-09-04 19:59:46,INFO,system,Cache cleared - 325 items removed,0
+2025-09-04 12:39:20,DEBUG,system,Service payment-service started successfully,0
+2025-09-04 21:27:21,WARN,system,Cache cleared - 732 items removed,0
+2025-09-04 19:32:35,WARN,access,User eve successfully logged in from 203.0.113.45,0
+2025-09-04 02:37:59,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 02:18:56,DEBUG,system,System health check completed successfully,0
+2025-09-04 20:24:46,WARN,access,GET /api/users/5507 - 200 OK - 101ms,0
+2025-09-04 03:29:10,WARN,system,System health check completed successfully,0
+2025-09-04 14:33:31,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 19:05:22,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 22:08:23,INFO,access,User alice accessed resource /admin,0
+2025-09-04 16:54:01,INFO,system,Service payment-service started successfully,0
+2025-09-04 19:24:45,INFO,access,User eve successfully logged in from 192.168.1.10,0
+2025-09-04 19:02:43,INFO,error,Non-critical error in user - operation continued,0
+2025-09-04 03:17:53,DEBUG,system,System health check completed successfully,0
+2025-09-04 22:24:27,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 10:55:14,DEBUG,system,Database connection established,0
+2025-09-04 09:15:22,INFO,access,User frank accessed resource /settings,0
+2025-09-04 11:29:34,WARN,access,User alice successfully logged in from 192.168.1.10,0
+2025-09-04 03:33:16,WARN,access,User diana successfully logged in from 10.0.0.5,0
+2025-09-04 22:18:29,INFO,error,Invalid request format - missing required field,0
+2025-09-04 07:08:34,DEBUG,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 15:31:44,INFO,error,Non-critical error in auth - operation continued,0
+2025-09-04 19:29:02,INFO,access,GET /dashboard - 200 OK - 423ms,0
+2025-09-04 06:29:08,CRITICAL,error,FATAL: Security breach - immediate containment required,1
+2025-09-04 15:59:41,DEBUG,system,Cache cleared - 108 items removed,0
+2025-09-04 03:04:14,INFO,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-04 08:56:37,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 19:12:20,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 12:24:12,INFO,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 01:46:35,CRITICAL,security,CRITICAL: Unauthorized API access attempt,1
+2025-09-04 08:04:53,WARNING,system,ALERT: Unusual CPU spike detected - 97% usage,1
+2025-09-04 22:46:56,INFO,system,Service payment-service started successfully,0
+2025-09-04 21:50:32,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-05 00:51:55,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 08:16:26,WARN,access,GET /dashboard - 200 OK - 183ms,0
+2025-09-04 22:59:42,FATAL,error,CRITICAL: Database corruption detected,1
+2025-09-04 13:37:06,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 09:59:17,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 20:19:01,WARN,access,GET /dashboard - 200 OK - 372ms,0
+2025-09-04 15:12:41,DEBUG,error,Rate limit exceeded for IP 10.0.0.5 - request throttled,0
+2025-09-04 22:22:30,DEBUG,system,Database connection established,0
+2025-09-04 23:20:04,WARN,security,Access token refreshed for user alice,0
+2025-09-04 05:55:55,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 07:51:00,WARN,error,Connection timeout to external service - retrying,0
+2025-09-05 01:24:56,WARN,access,GET /api/users/3381 - 200 OK - 417ms,0
+2025-09-04 01:48:59,DEBUG,access,User charlie successfully logged in from 10.0.0.5,0
+2025-09-04 12:36:43,WARN,system,System health check completed successfully,0
+2025-09-04 07:26:44,DEBUG,system,System health check completed successfully,0
+2025-09-04 21:34:58,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 15:04:41,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 14:44:53,DEBUG,access,GET /dashboard - 200 OK - 452ms,0
+2025-09-04 13:38:30,WARN,error,Invalid request format - missing required field,0
+2025-09-04 15:11:32,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 10:13:44,DEBUG,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 13:46:44,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 14:17:54,WARN,error,Invalid request format - missing required field,0
+2025-09-04 11:23:00,INFO,system,Database connection established,0
+2025-09-04 22:48:24,DEBUG,security,Access token refreshed for user charlie,0
+2025-09-04 02:22:08,WARN,security,Firewall rule updated for 10.0.0.5,0
+2025-09-05 00:02:37,INFO,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 18:07:22,INFO,access,GET /dashboard - 200 OK - 188ms,0
+2025-09-04 01:54:08,INFO,system,Service auth-service started successfully,0
+2025-09-05 00:52:22,DEBUG,system,System health check completed successfully,0
+2025-09-04 17:34:10,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 07:34:46,INFO,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 03:44:19,WARN,system,Database connection established,0
+2025-09-04 05:27:55,WARNING,system,CRITICAL: System memory usage at 98% - immediate action required,1
+2025-09-04 06:25:49,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 12:29:38,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 19:00:30,DEBUG,system,Service payment-service started successfully,0
+2025-09-04 18:21:53,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 02:16:33,WARN,error,Invalid request format - missing required field,0
+2025-09-05 00:12:28,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 11:16:49,INFO,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 19:15:12,DEBUG,access,User eve accessed resource /admin,0
+2025-09-04 03:00:28,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 10:03:12,INFO,system,Scheduled backup completed - 45MB,0
+2025-09-04 04:31:41,CRITICAL,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 17:56:43,INFO,security,Password policy compliance check passed,0
+2025-09-04 22:36:03,CRITICAL,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 21:10:33,DEBUG,system,Cache cleared - 929 items removed,0
+2025-09-04 15:15:55,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 13:05:15,DEBUG,security,SSL certificate validated for app.company.com,0
+2025-09-04 01:41:45,WARN,system,Database connection established,0
+2025-09-04 03:47:12,INFO,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 04:08:23,INFO,system,Service user-service started successfully,0
+2025-09-04 01:41:10,WARN,error,Invalid request format - missing required field,0
+2025-09-04 11:03:22,DEBUG,system,Service user-service started successfully,0
+2025-09-04 03:10:24,WARN,access,GET /api/users/7067 - 200 OK - 215ms,0
+2025-09-04 15:56:42,DEBUG,error,Invalid request format - missing required field,0
+2025-09-05 01:07:24,INFO,security,Password policy compliance check passed,0
+2025-09-04 18:47:27,WARN,system,Service auth-service started successfully,0
+2025-09-04 23:14:54,INFO,system,Database connection established,0
+2025-09-04 07:24:39,DEBUG,security,Access token refreshed for user frank,0
+2025-09-04 16:14:03,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 06:44:22,DEBUG,error,Non-critical error in notification - operation continued,0
+2025-09-04 21:38:52,INFO,system,System health check completed successfully,0
+2025-09-04 08:10:07,INFO,access,GET /dashboard - 200 OK - 470ms,0
+2025-09-04 05:30:57,CRITICAL,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 12:49:52,INFO,access,User charlie accessed resource /settings,0
+2025-09-04 11:57:09,WARN,system,Service notification-service started successfully,0
+2025-09-04 08:16:52,ALERT,security,CRITICAL: Data exfiltration attempt blocked,1
+2025-09-04 11:52:11,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 13:44:40,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 21:18:42,WARN,security,Password policy compliance check passed,0
+2025-09-04 07:26:39,WARN,system,Cache cleared - 296 items removed,0
+2025-09-04 07:16:56,WARN,system,Scheduled backup completed - 69MB,0
+2025-09-04 23:15:41,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 00:46:21,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 08:41:14,INFO,security,SSL certificate validated for app.company.com,0
+2025-09-04 06:46:16,DEBUG,access,User diana accessed resource /settings,0
+2025-09-04 12:50:41,INFO,error,Non-critical error in auth - operation continued,0
+2025-09-04 19:54:21,DEBUG,error,Non-critical error in payment - operation continued,0
+2025-09-04 01:57:57,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 14:03:51,WARN,security,Security scan completed - no threats detected,0
+2025-09-05 01:09:55,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 16:38:18,FATAL,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 05:15:41,INFO,access,User charlie accessed resource /admin,0
+2025-09-04 14:54:48,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 14:01:48,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 12:37:50,ALERT,security,ALERT: Suspicious file modification detected,1
+2025-09-04 13:26:32,INFO,error,Non-critical error in user - operation continued,0
+2025-09-04 19:55:25,WARN,system,Service payment-service started successfully,0
+2025-09-04 22:31:14,DEBUG,access,GET /api/users/6848 - 200 OK - 97ms,0
+2025-09-05 01:40:35,WARN,error,Non-critical error in user - operation continued,0
+2025-09-04 23:29:58,WARN,access,GET /dashboard - 200 OK - 94ms,0
+2025-09-04 06:59:18,WARN,system,Service user-service started successfully,0
+2025-09-04 03:58:28,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 20:19:38,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 19:12:12,INFO,system,Service auth-service started successfully,0
+2025-09-04 05:18:22,WARN,security,Security scan completed - no threats detected,0
+2025-09-05 01:45:03,WARN,system,Scheduled backup completed - 33MB,0
+2025-09-04 03:03:03,INFO,system,Cache cleared - 753 items removed,0
+2025-09-04 13:22:45,WARN,system,System health check completed successfully,0
+2025-09-04 13:36:04,WARN,error,Invalid request format - missing required field,0
+2025-09-04 06:35:20,CRITICAL,error,CRITICAL: Cascade failure in microservices,1
+2025-09-04 07:58:24,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 17:23:15,INFO,security,Password policy compliance check passed,0
+2025-09-04 07:13:04,WARN,security,Password policy compliance check passed,0
+2025-09-04 17:09:07,FATAL,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 22:32:10,INFO,security,SSL certificate validated for secure.company.com,0
+2025-09-04 03:13:20,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 13:50:30,WARN,security,SSL certificate validated for api.company.com,0
+2025-09-04 06:50:33,DEBUG,access,User alice accessed resource /dashboard,0
+2025-09-04 03:09:57,INFO,system,Database connection established,0
+2025-09-04 13:33:59,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 20:48:56,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 09:33:31,WARN,error,Invalid request format - missing required field,0
+2025-09-04 07:39:05,WARN,access,GET /api/users/7893 - 200 OK - 172ms,0
+2025-09-04 08:04:17,DEBUG,access,GET /dashboard - 200 OK - 184ms,0
+2025-09-04 13:10:49,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 13:52:30,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 19:11:58,WARNING,error,CRITICAL: Database corruption detected,1
+2025-09-04 13:45:53,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 06:11:18,WARN,system,System health check completed successfully,0
+2025-09-04 21:17:04,DEBUG,error,Non-critical error in auth - operation continued,0
+2025-09-04 08:42:14,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 09:39:56,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 05:14:22,INFO,security,SSL certificate validated for secure.company.com,0
+2025-09-04 02:36:05,INFO,system,System health check completed successfully,0
+2025-09-04 06:50:21,FATAL,error,CRITICAL: Database corruption detected,1
+2025-09-04 12:00:40,DEBUG,access,User eve accessed resource /settings,0
+2025-09-04 07:04:39,WARN,access,GET /dashboard - 200 OK - 160ms,0
+2025-09-04 12:59:38,DEBUG,security,SSL certificate validated for secure.company.com,0
+2025-09-04 13:27:31,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 19:04:31,WARN,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 05:27:21,DEBUG,access,GET /dashboard - 200 OK - 437ms,0
+2025-09-04 14:44:44,WARN,access,User charlie accessed resource /api/users,0
+2025-09-04 11:24:49,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 15:51:28,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 04:21:37,DEBUG,access,User charlie accessed resource /settings,0
+2025-09-04 14:03:19,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 03:53:30,INFO,error,Invalid request format - missing required field,0
+2025-09-04 02:12:18,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 21:15:26,WARN,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 04:27:24,WARN,access,GET /dashboard - 200 OK - 349ms,0
+2025-09-04 12:09:20,DEBUG,access,GET /api/users/5383 - 200 OK - 392ms,0
+2025-09-04 11:47:00,WARN,system,Database connection established,0
+2025-09-05 00:28:13,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 19:49:00,INFO,error,Non-critical error in user - operation continued,0
+2025-09-04 15:46:43,DEBUG,access,GET /api/users/8179 - 200 OK - 428ms,0
+2025-09-04 03:01:36,DEBUG,access,GET /api/users/9447 - 200 OK - 316ms,0
+2025-09-04 15:00:15,DEBUG,system,Scheduled backup completed - 77MB,0
+2025-09-04 14:42:56,WARN,system,Database connection established,0
+2025-09-04 01:59:38,INFO,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 12:32:28,INFO,access,GET /dashboard - 200 OK - 464ms,0
+2025-09-04 03:48:11,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 18:21:34,DEBUG,system,Scheduled backup completed - 66MB,0
+2025-09-05 01:24:20,DEBUG,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 06:13:09,INFO,system,Scheduled backup completed - 17MB,0
+2025-09-04 17:29:47,WARN,error,Non-critical error in payment - operation continued,0
+2025-09-05 02:24:30,INFO,system,Scheduled backup completed - 17MB,0
+2025-09-04 08:54:11,WARNING,error,FATAL: Application crashed with stack overflow,1
+2025-09-05 00:03:43,DEBUG,system,Cache cleared - 699 items removed,0
+2025-09-04 17:15:24,INFO,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 15:23:04,ALERT,error,CRITICAL: Cascade failure in microservices,1
+2025-09-04 15:27:37,WARN,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 13:28:29,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 20:00:53,WARN,system,Scheduled backup completed - 54MB,0
+2025-09-04 10:56:55,DEBUG,error,Non-critical error in auth - operation continued,0
+2025-09-04 19:34:45,WARN,security,Password policy compliance check passed,0
+2025-09-04 03:32:03,WARN,system,Scheduled backup completed - 32MB,0
+2025-09-04 15:37:53,DEBUG,access,GET /dashboard - 200 OK - 276ms,0
+2025-09-05 00:01:10,INFO,access,GET /api/users/9365 - 200 OK - 366ms,0
+2025-09-04 05:02:28,INFO,access,GET /api/users/9826 - 200 OK - 452ms,0
+2025-09-04 21:24:20,INFO,system,Service auth-service started successfully,0
+2025-09-04 05:50:52,INFO,system,Scheduled backup completed - 84MB,0
+2025-09-04 13:06:29,WARN,system,Cache cleared - 925 items removed,0
+2025-09-04 02:21:32,WARN,error,Non-critical error in notification - operation continued,0
+2025-09-04 11:02:52,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 17:03:29,WARNING,error,FATAL: Memory leak causing system instability,1
+2025-09-04 11:58:58,INFO,security,Access token refreshed for user eve,0
+2025-09-04 10:20:17,INFO,security,Firewall rule updated for 10.0.0.5,0
+2025-09-04 12:40:18,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 07:49:36,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 06:49:39,WARN,system,System health check completed successfully,0
+2025-09-04 04:44:13,WARN,error,Connection timeout to external service - retrying,0
+2025-09-05 00:49:44,INFO,system,Cache cleared - 422 items removed,0
+2025-09-04 20:46:17,DEBUG,access,GET /api/users/2387 - 200 OK - 372ms,0
+2025-09-04 03:13:41,WARN,system,Cache cleared - 891 items removed,0
+2025-09-04 19:56:16,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 15:42:22,DEBUG,security,Firewall rule updated for 172.16.0.100,0
+2025-09-04 11:50:16,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 06:59:45,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-05 00:12:37,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 10:34:33,INFO,security,Password policy compliance check passed,0
+2025-09-04 00:52:15,INFO,security,Access token refreshed for user alice,0
+2025-09-04 12:35:55,DEBUG,security,SSL certificate validated for api.company.com,0
+2025-09-04 01:44:18,INFO,security,SSL certificate validated for app.company.com,0
+2025-09-04 17:07:01,INFO,access,GET /dashboard - 200 OK - 320ms,0
+2025-09-04 12:40:09,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 09:28:45,WARN,system,System health check completed successfully,0
+2025-09-04 16:36:00,ALERT,access,ALERT: Unusual access pattern detected for user bob,1
+2025-09-04 11:34:24,FATAL,security,CRITICAL: Data exfiltration attempt blocked,1
+2025-09-04 20:42:04,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 14:04:28,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 13:11:03,INFO,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 09:41:16,INFO,system,System health check completed successfully,0
+2025-09-04 07:57:24,INFO,security,Access token refreshed for user eve,0
+2025-09-04 17:22:14,ALERT,error,FATAL: Memory leak causing system instability,1
+2025-09-04 22:54:32,DEBUG,system,Cache cleared - 927 items removed,0
+2025-09-04 08:07:51,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 07:04:43,DEBUG,system,Database connection established,0
+2025-09-04 11:10:41,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-05 01:30:48,WARN,error,Invalid request format - missing required field,0
+2025-09-04 09:50:24,CRITICAL,security,ALERT: Suspicious file modification detected,1
+2025-09-04 01:55:04,WARN,security,Password policy compliance check passed,0
+2025-09-04 03:03:37,WARN,security,Firewall rule updated for 172.16.0.100,0
+2025-09-05 01:40:44,FATAL,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 05:59:32,INFO,system,Database connection established,0
+2025-09-04 06:02:18,CRITICAL,access,WARNING: Brute force attack detected from 192.168.1.10,1
+2025-09-04 07:57:05,INFO,access,GET /dashboard - 200 OK - 308ms,0
+2025-09-05 01:31:27,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-05 00:52:17,DEBUG,security,SSL certificate validated for app.company.com,0
+2025-09-05 00:16:52,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 15:57:09,WARN,system,Scheduled backup completed - 11MB,0
+2025-09-04 05:08:08,DEBUG,security,SSL certificate validated for api.company.com,0
+2025-09-04 05:30:33,CRITICAL,error,FATAL: Security breach - immediate containment required,1
+2025-09-04 21:34:53,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 02:07:22,DEBUG,access,User charlie successfully logged in from 203.0.113.45,0
+2025-09-04 20:54:42,DEBUG,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 06:05:18,WARN,system,Cache cleared - 911 items removed,0
+2025-09-04 12:12:28,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 20:27:25,CRITICAL,error,FATAL: Security breach - immediate containment required,1
+2025-09-04 02:26:05,DEBUG,security,SSL certificate validated for api.company.com,0
+2025-09-04 10:49:12,WARN,system,System health check completed successfully,0
+2025-09-04 18:49:55,FATAL,system,CRITICAL: Database connection pool exhausted,1
+2025-09-04 23:17:57,DEBUG,access,GET /dashboard - 200 OK - 265ms,0
+2025-09-04 17:26:47,DEBUG,system,Database connection established,0
+2025-09-04 10:06:18,WARN,system,Database connection established,0
+2025-09-04 15:21:19,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 09:25:24,INFO,security,Access token refreshed for user frank,0
+2025-09-04 17:27:08,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 10:27:22,INFO,error,Invalid request format - missing required field,0
+2025-09-04 07:14:43,WARN,access,GET /api/users/8313 - 200 OK - 211ms,0
+2025-09-04 10:55:08,WARN,security,Access token refreshed for user diana,0
+2025-09-05 01:00:18,INFO,system,Database connection established,0
+2025-09-04 19:58:14,WARN,system,Database connection established,0
+2025-09-04 05:11:46,INFO,security,Password policy compliance check passed,0
+2025-09-04 22:08:05,INFO,security,Firewall rule updated for 192.168.1.10,0
+2025-09-04 16:20:38,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 08:22:03,WARN,access,User bob accessed resource /api/users,0
+2025-09-04 06:32:30,DEBUG,access,GET /api/users/5524 - 200 OK - 331ms,0
+2025-09-04 08:58:14,DEBUG,access,GET /dashboard - 200 OK - 188ms,0
+2025-09-04 15:47:56,DEBUG,system,Service user-service started successfully,0
+2025-09-05 00:40:13,WARN,system,Cache cleared - 347 items removed,0
+2025-09-04 15:37:48,WARN,security,SSL certificate validated for api.company.com,0
+2025-09-04 22:50:58,INFO,system,Scheduled backup completed - 80MB,0
+2025-09-04 15:12:06,DEBUG,security,Access token refreshed for user charlie,0
+2025-09-04 07:22:26,WARN,system,Scheduled backup completed - 40MB,0
+2025-09-04 11:30:49,WARN,access,User charlie successfully logged in from 172.16.0.100,0
+2025-09-04 03:26:55,INFO,system,Database connection established,0
+2025-09-04 22:44:53,WARN,security,Firewall rule updated for 203.0.113.45,0
+2025-09-04 20:48:20,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-04 15:16:12,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 07:14:33,WARN,system,Database connection established,0
+2025-09-04 05:03:47,DEBUG,security,Password policy compliance check passed,0
+2025-09-05 00:56:16,DEBUG,error,Non-critical error in payment - operation continued,0
+2025-09-04 20:50:15,DEBUG,system,Database connection established,0
+2025-09-04 04:15:09,INFO,security,Password policy compliance check passed,0
+2025-09-04 23:24:40,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 17:10:57,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 15:53:49,WARN,system,Database connection established,0
+2025-09-04 01:59:38,DEBUG,system,System health check completed successfully,0
+2025-09-04 20:57:47,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 11:03:22,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 18:43:49,WARN,security,SSL certificate validated for app.company.com,0
+2025-09-04 13:21:56,INFO,security,Password policy compliance check passed,0
+2025-09-04 11:01:06,INFO,access,User charlie accessed resource /reports,0
+2025-09-05 00:26:31,INFO,system,Database connection established,0
+2025-09-04 20:47:32,INFO,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 21:37:52,WARNING,error,CRITICAL: Cascade failure in microservices,1
+2025-09-04 16:15:00,INFO,error,Rate limit exceeded for IP 203.0.113.45 - request throttled,0
+2025-09-05 01:09:34,INFO,system,Service auth-service started successfully,0
+2025-09-04 04:22:14,WARN,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 11:10:56,INFO,access,User charlie accessed resource /admin,0
+2025-09-04 15:08:05,INFO,system,System health check completed successfully,0
+2025-09-04 02:48:33,WARN,system,Database connection established,0
+2025-09-05 00:08:06,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-04 16:45:01,WARN,security,Access token refreshed for user frank,0
+2025-09-05 00:39:27,DEBUG,error,Invalid request format - missing required field,0
+2025-09-04 13:54:16,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 16:46:14,ALERT,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 03:10:34,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 23:57:44,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 12:18:12,DEBUG,security,Security scan completed - no threats detected,0
+2025-09-04 11:49:19,ALERT,system,CRITICAL: Service auth-service crashed unexpectedly,1
+2025-09-04 08:19:47,WARNING,security,CRITICAL: SQL injection attempt detected in query,1
+2025-09-04 17:32:33,WARN,access,GET /dashboard - 200 OK - 322ms,0
+2025-09-04 07:42:51,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 15:35:13,INFO,system,Database connection established,0
+2025-09-04 23:27:37,WARN,access,User charlie accessed resource /api/users,0
+2025-09-04 21:13:24,INFO,system,Cache cleared - 448 items removed,0
+2025-09-04 06:44:45,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-05 00:57:40,INFO,system,System health check completed successfully,0
+2025-09-04 08:59:08,DEBUG,security,Access token refreshed for user frank,0
+2025-09-04 22:21:35,FATAL,security,CRITICAL: SQL injection attempt detected in query,1
+2025-09-04 04:35:58,WARNING,system,CRITICAL: System memory usage at 98% - immediate action required,1
+2025-09-04 09:29:38,WARN,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-04 20:27:03,DEBUG,access,GET /dashboard - 200 OK - 254ms,0
+2025-09-04 12:15:36,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 06:20:05,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-04 22:35:48,DEBUG,access,User eve accessed resource /reports,0
+2025-09-04 08:58:56,DEBUG,system,Cache cleared - 707 items removed,0
+2025-09-04 10:24:01,DEBUG,error,Connection timeout to external service - retrying,0
+2025-09-05 01:14:00,DEBUG,system,Database connection established,0
+2025-09-04 18:08:37,INFO,security,SSL certificate validated for secure.company.com,0
+2025-09-04 09:41:32,DEBUG,error,Invalid request format - missing required field,0
+2025-09-05 00:42:58,INFO,access,GET /api/users/6896 - 200 OK - 56ms,0
+2025-09-04 06:42:17,WARN,error,Invalid request format - missing required field,0
+2025-09-05 00:07:06,WARN,system,Cache cleared - 797 items removed,0
+2025-09-04 11:15:49,CRITICAL,security,CRITICAL: Data exfiltration attempt blocked,1
+2025-09-04 10:09:56,WARN,system,Database connection established,0
+2025-09-04 05:08:21,INFO,system,Service user-service started successfully,0
+2025-09-04 23:04:02,DEBUG,security,Password policy compliance check passed,0
+2025-09-04 10:31:30,DEBUG,error,Invalid request format - missing required field,0
+2025-09-05 00:36:20,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 22:20:57,WARN,access,User eve accessed resource /settings,0
+2025-09-04 23:56:40,INFO,security,SSL certificate validated for api.company.com,0
+2025-09-04 21:44:30,INFO,access,User alice accessed resource /settings,0
+2025-09-04 03:15:15,INFO,error,Rate limit exceeded for IP 192.168.1.10 - request throttled,0
+2025-09-05 02:00:39,ALERT,error,FATAL: Memory leak causing system instability,1
+2025-09-04 15:53:18,WARNING,security,CRITICAL: Unauthorized API access attempt,1
+2025-09-04 22:22:36,INFO,security,SSL certificate validated for app.company.com,0
+2025-09-04 11:56:26,WARN,error,Invalid request format - missing required field,0
+2025-09-04 20:35:26,INFO,error,Non-critical error in user - operation continued,0
+2025-09-04 12:20:40,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 10:49:54,WARN,error,Invalid request format - missing required field,0
+2025-09-04 22:21:15,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 04:56:55,INFO,system,Service payment-service started successfully,0
+2025-09-04 16:48:12,WARNING,error,FATAL: Application crashed with stack overflow,1
+2025-09-04 12:20:56,INFO,security,Password policy compliance check passed,0
+2025-09-04 07:45:35,WARN,security,SSL certificate validated for secure.company.com,0
+2025-09-04 10:55:25,WARN,system,Cache cleared - 510 items removed,0
+2025-09-04 17:31:30,WARN,security,Security scan completed - no threats detected,0
+2025-09-04 06:50:16,INFO,access,User bob successfully logged in from 192.168.1.10,0
+2025-09-04 20:10:54,INFO,security,Firewall rule updated for 10.0.0.5,0
+2025-09-05 00:48:34,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-05 00:46:21,DEBUG,access,GET /api/users/2705 - 200 OK - 141ms,0
+2025-09-04 05:56:57,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 23:12:32,WARN,system,Database connection established,0
+2025-09-04 16:07:56,INFO,access,User frank successfully logged in from 192.168.1.10,0
+2025-09-04 01:14:05,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 09:51:22,WARN,access,GET /api/users/8014 - 200 OK - 495ms,0
+2025-09-04 06:45:47,DEBUG,access,User alice accessed resource /dashboard,0
+2025-09-04 07:05:45,WARN,system,Scheduled backup completed - 62MB,0
+2025-09-04 03:25:56,WARNING,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 06:56:20,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 19:02:46,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 16:02:36,DEBUG,system,System health check completed successfully,0
+2025-09-05 00:02:02,DEBUG,access,User bob successfully logged in from 192.168.1.10,0
+2025-09-04 06:59:33,WARN,error,Connection timeout to external service - retrying,0
+2025-09-04 14:39:22,WARN,security,Firewall rule updated for 10.0.0.5,0
+2025-09-05 00:06:58,WARNING,security,ALERT: Suspicious file modification detected,1
+2025-09-04 19:52:54,DEBUG,access,User frank successfully logged in from 10.0.0.5,0
+2025-09-04 16:04:48,WARN,security,SSL certificate validated for api.company.com,0
+2025-09-04 10:05:48,WARN,security,Password policy compliance check passed,0
+2025-09-04 13:06:23,WARN,system,Database connection established,0
+2025-09-04 20:46:09,WARN,system,System health check completed successfully,0
+2025-09-04 09:39:09,WARN,access,User frank successfully logged in from 10.0.0.5,0
+2025-09-04 22:31:22,INFO,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-05 01:46:29,INFO,system,System health check completed successfully,0
+2025-09-04 02:54:08,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 00:35:19,INFO,system,Cache cleared - 140 items removed,0
+2025-09-04 19:42:07,INFO,error,Invalid request format - missing required field,0
+2025-09-04 23:28:49,WARN,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 10:21:47,INFO,security,Access token refreshed for user alice,0
+2025-09-04 13:09:00,DEBUG,system,Scheduled backup completed - 70MB,0
+2025-09-05 02:28:40,DEBUG,system,Service notification-service started successfully,0
+2025-09-04 06:54:59,INFO,error,Connection timeout to external service - retrying,0
+2025-09-04 15:08:51,INFO,access,GET /dashboard - 200 OK - 345ms,0
+2025-09-04 09:11:58,DEBUG,access,User diana successfully logged in from 172.16.0.100,0
+2025-09-04 07:34:19,INFO,system,Service auth-service started successfully,0
+2025-09-04 08:15:24,DEBUG,security,Access token refreshed for user alice,0
+2025-09-04 04:38:18,WARN,system,Cache cleared - 122 items removed,0
+2025-09-04 06:12:00,DEBUG,access,User alice accessed resource /dashboard,0
+2025-09-05 02:14:37,INFO,error,Invalid request format - missing required field,0
+2025-09-04 16:15:09,INFO,system,System health check completed successfully,0
+2025-09-04 10:19:07,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 12:18:38,FATAL,access,ALERT: Unusual access pattern detected for user bob,1
+2025-09-04 22:18:03,CRITICAL,error,FATAL: Memory leak causing system instability,1
+2025-09-04 07:11:20,WARN,security,Access token refreshed for user diana,0
+2025-09-04 15:39:33,DEBUG,access,GET /api/users/8663 - 200 OK - 332ms,0
+2025-09-04 16:45:27,FATAL,system,CRITICAL: Service user-service crashed unexpectedly,1
+2025-09-04 20:10:41,INFO,access,GET /api/users/5425 - 200 OK - 290ms,0
+2025-09-04 13:16:51,DEBUG,system,System health check completed successfully,0
+2025-09-04 04:57:57,DEBUG,error,Temporary service unavailable - maintenance mode,0
+2025-09-05 01:19:50,DEBUG,system,Cache cleared - 302 items removed,0
+2025-09-04 22:09:41,WARN,error,Invalid request format - missing required field,0
+2025-09-04 02:19:46,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 01:53:00,INFO,system,Scheduled backup completed - 45MB,0
+2025-09-05 02:16:54,INFO,security,Security scan completed - no threats detected,0
+2025-09-04 08:57:18,DEBUG,system,Scheduled backup completed - 63MB,0
+2025-09-04 15:16:47,DEBUG,access,User eve accessed resource /reports,0
+2025-09-04 20:51:05,DEBUG,system,Cache cleared - 397 items removed,0
+2025-09-04 21:28:37,WARN,error,Non-critical error in user - operation continued,0
+2025-09-04 10:42:01,INFO,access,User diana successfully logged in from 203.0.113.45,0
+2025-09-04 13:41:20,INFO,access,GET /api/users/2189 - 200 OK - 53ms,0
+2025-09-04 13:10:28,DEBUG,access,POST /api/auth/login - 200 OK - User authenticated,0
+2025-09-04 19:40:53,WARN,security,Password policy compliance check passed,0
+2025-09-04 14:59:46,INFO,security,SSL certificate validated for secure.company.com,0
+2025-09-04 11:01:18,DEBUG,system,Service user-service started successfully,0
+2025-09-04 09:33:15,INFO,security,Password policy compliance check passed,0
+2025-09-04 07:09:34,INFO,error,Non-critical error in payment - operation continued,0
+2025-09-04 03:52:09,WARN,access,User eve accessed resource /dashboard,0
+2025-09-04 18:52:56,INFO,security,Password policy compliance check passed,0
+2025-09-04 07:40:48,DEBUG,error,Rate limit exceeded for IP 172.16.0.100 - request throttled,0
+2025-09-04 15:47:55,DEBUG,error,Non-critical error in notification - operation continued,0
+2025-09-04 17:42:34,WARN,access,GET /api/users/3003 - 200 OK - 498ms,0
+2025-09-04 17:06:42,INFO,access,GET /api/users/8259 - 200 OK - 169ms,0
+2025-09-04 11:15:17,WARN,system,Cache cleared - 151 items removed,0
+2025-09-04 17:17:33,WARNING,access,CRITICAL: Multiple failed login attempts from 192.168.1.10 - 38 attempts,1
+2025-09-04 22:45:24,WARNING,error,CRITICAL: Database corruption detected,1
+2025-09-04 14:42:14,WARN,access,GET /api/users/4012 - 200 OK - 281ms,0
+2025-09-04 05:27:03,ALERT,security,ALERT: Malware signature detected in uploaded file,1
+2025-09-04 19:51:24,WARN,system,Scheduled backup completed - 17MB,0
+2025-09-04 03:19:30,INFO,error,Temporary service unavailable - maintenance mode,0
+2025-09-04 10:19:44,DEBUG,security,Security scan completed - no threats detected,0
