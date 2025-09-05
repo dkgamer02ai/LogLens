@@ -24,14 +24,14 @@ pydantic>=2.0.0
 
 # Database and storage
 redis>=4.6.0
-sqlite3
+# sqlite3
 
 # Containerization and deployment
 docker>=6.1.0
 
 # Alerting and notifications
 requests>=2.31.0
-smtplib
+# smtplib
 
 # Utilities
 python-dotenv>=1.0.0

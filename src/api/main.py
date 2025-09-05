@@ -17,7 +17,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel, Field
 import redis.asyncio as redis
-from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
+from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST, REGISTRY
 from starlette.responses import Response
 import logging
 
@@ -30,6 +30,23 @@ from ..alerting.alert_manager import AlertManager
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Clear any existing metrics to prevent duplicates
+try:
+    # Find and unregister any existing LogLens metrics
+    collectors_to_unregister = []
+    for collector in list(REGISTRY._collector_to_names.keys()):
+        if hasattr(collector, '_name'):
+            if collector._name.startswith('loglens_'):
+                collectors_to_unregister.append(collector)
+    
+    for collector in collectors_to_unregister:
+        try:
+            REGISTRY.unregister(collector)
+        except KeyError:
+            pass  # Already unregistered
+except Exception as e:
+    logger.warning(f"Error clearing existing metrics: {e}")
 
 # Prometheus metrics
 REQUEST_COUNT = Counter('loglens_requests_total', 'Total requests', ['method', 'endpoint'])
