@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  # Main LogLens API service
+  loglens-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - MODEL_PATH=/app/models/bert_classifier.pt
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis for caching and session storage
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Prometheus for metrics collection
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./docker/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+
+  # Grafana for monitoring dashboard
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./docker/grafana-datasources.yml:/etc/grafana/provisioning/datasources/datasources.yml
+    restart: unless-stopped
+
+  # Log file monitor (optional)
+  log-monitor:
+    build: .
+    command: python -m src.monitor --input /var/log/app/application.log --api-url http://loglens-api:8000
+    volumes:
+      - ./logs:/var/log/app:ro
+      - ./config:/app/config
+    depends_on:
+      - loglens-api
+    restart: unless-stopped
+    profiles:
+      - monitoring
+
+volumes:
+  redis_data:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  default:
+    name: loglens-network

@@ -1,0 +1,35 @@
+193.106.59.14 - - \[04/Sep/2025:22:15:00 +0530] "GET /wp-login.php HTTP/1.1" 200 523 "-" "sqlmap/1.7.7#stable ([http://sqlmap.org](http://sqlmap.org))" vhost=[www.examplecorp.internal](http://www.examplecorp.internal)
+193.106.59.14 - - \[04/Sep/2025:22:15:00 +0530] "POST /wp-login.php HTTP/1.1" 200 842 "-" "Mozilla/5.0" vhost=[www.examplecorp.internal](http://www.examplecorp.internal) form\_user=admin
+82.45.113.92 - - \[04/Sep/2025:22:15:03 +0530] "GET /admin/ HTTP/1.1" 404 3012 "-" "curl/8.6.0" vhost=[www.examplecorp.internal](http://www.examplecorp.internal)
+17.202.34.88 - - \[04/Sep/2025:22:15:06 +0530] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 1290 "-" "python-requests/2.31.0" vhost=[www.examplecorp.internal](http://www.examplecorp.internal)
+64.199.8.11 - - \[04/Sep/2025:22:15:09 +0530] "GET /.git/config HTTP/1.1" 403 298 "-" "Mozilla/5.0" vhost=[www.examplecorp.internal](http://www.examplecorp.internal)
+192.88.45.23 - - \[04/Sep/2025:22:15:12 +0530] "GET /index.php?uid=1' OR '1'='1 HTTP/1.1" 500 812 "-" "sqlmap/1.7.7#stable ([http://sqlmap.org](http://sqlmap.org))" vhost=[www.examplecorp.internal](http://www.examplecorp.internal)
+
+Sep 04 22:19:00 web01 sshd\[2001]: Failed password for root from 203.0.113.55 port 51222 ssh2
+Sep 04 22:19:05 web01 sshd\[2002]: Failed password for root from 203.0.113.55 port 51223 ssh2
+Sep 04 22:19:10 web01 sshd\[2003]: Failed password for root from 203.0.113.55 port 51224 ssh2
+Sep 04 22:19:15 web01 sshd\[2004]: Failed password for admin from 198.51.100.88 port 41221 ssh2
+Sep 04 22:19:20 web01 sshd\[2005]: Failed password for admin from 198.51.100.88 port 41222 ssh2
+Sep 04 22:19:25 web01 sshd\[2006]: Failed password for ubuntu from 203.0.113.55 port 51225 ssh2
+Sep 04 22:19:30 web01 sshd\[2999]: Accepted password for ubuntu from 203.0.113.55 port 51226 ssh2
+Sep 04 22:19:30 web01 sshd\[2999]: pam\_unix(sshd\:session): session opened for user ubuntu by (uid=0)
+
+2025-09-04T22:20:00+05:30,DC01,Microsoft-Windows-Security-Auditing,4624,An account was successfully logged on,SubjectUserName=ANONYMOUS LOGON;TargetUserName=svc\_backup;IpAddress=203.0.113.55
+2025-09-04T22:20:02+05:30,DC01,Microsoft-Windows-Security-Auditing,4672,Special privileges assigned,SubjectUserName=CORP\Administrator;TargetUserName=CORP\svc\_backup
+2025-09-04T22:20:05+05:30,DC01,Sysmon,4688,Process Create,ParentImage="C:\Windows\System32\cmd.exe";Image="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe";CommandLine="powershell -nop -w hidden -enc SQBFAFgAIAAoAEkAbgB2AG8AawBlAC0AVwBlAGIAUwBlAHIAdgBpAGMAZQApAA=="
+2025-09-04T22:20:08+05:30,DC01,Microsoft-Windows-Security-Auditing,4720,A user account was created,Subject=CORP\Administrator;NewAccount=CORP\helpdesk\$
+2025-09-04T22:20:15+05:30,DC01,System,7045,A service was installed,ServiceName=WinUpdateHelper;ImagePath="C:\Windows\Temp\wuhelper.exe"
+
+2025-09-04T22:20:20+05:30 resolver01 named\[1234]: client 203.0.113.55#53: query: ajskd9q.xj2ap9kq.top IN A - (cached NXDOMAIN)
+2025-09-04T22:20:22+05:30 resolver01 named\[1234]: client 10.10.10.45#53: query: lqps7d.ufn7dsaa.info IN A - (cached NXDOMAIN)
+2025-09-04T22:20:24+05:30 resolver01 named\[1234]: client 203.0.113.55#53: query: zjx8keu.cdn-updates-secure.com IN A - (cached NXDOMAIN)
+
+{"ts": "2025-09-04T22:22:00+05:30", "sensor": "edr01", "host": "DC01", "event": "network\_connection", "pid": 4242, "process": "C:\Windows\Temp\wuhelper.exe", "dest\_ip": "185.199.110.153", "dest\_port": 443, "protocol": "TLS", "bytes\_out": 1500, "ja3": "72a589da586844d7f0818ce684948eea", "sni": "cdn-updates-secure.com"}
+{"ts": "2025-09-04T22:23:00+05:30", "sensor": "edr01", "host": "DC01", "event": "network\_connection", "pid": 4242, "process": "C:\Windows\Temp\wuhelper.exe", "dest\_ip": "185.199.110.153", "dest\_port": 443, "protocol": "TLS", "bytes\_out": 1700, "ja3": "72a589da586844d7f0818ce684948eea", "sni": "cdn-updates-secure.com"}
+
+2025-09-04 22:25:00 fw01 action=ALLOW src=10.20.5.12 dst=185.199.110.153 sport=51522 dport=443 proto=TCP bytes\_out=10000000 rule="ALLOW-HTTPS-OUTBOUND"
+2025-09-04 22:25:15 fw01 action=ALLOW src=10.20.5.12 dst=185.199.110.153 sport=51522 dport=443 proto=TCP bytes\_out=15000000 rule="ALLOW-HTTPS-OUTBOUND"
+
+2025-09-04T22:27:00+05:30 CloudTrail region=ap-south-1 event=AssumeRole user=arn\:aws\:iam::111122223333\:user/backup ip=203.0.113.55 role=arn\:aws\:iam::111122223333\:role/OrganizationAccountAccessRole result=Success
+2025-09-04T22:27:10+05:30 CloudTrail region=ap-south-1 event=CreateAccessKey user=arn\:aws\:iam::111122223333\:user/backup ip=203.0.113.55 result=Success
+2025-09-04T22:27:20+05:30 CloudTrail region=ap-south-1 event=ListBuckets user=arn\:aws\:iam::111122223333\:user/backup ip=203.0.113.55 buckets=23 result=Success

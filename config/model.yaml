@@ -1,0 +1,30 @@
+# Model Configuration
+model:
+  name: "bert-base-uncased"
+  max_length: 512
+  num_labels: 2  # normal, anomaly
+  dropout: 0.1
+  
+# Training Configuration
+training:
+  batch_size: 16
+  learning_rate: 2e-5
+  num_epochs: 3
+  warmup_steps: 500
+  weight_decay: 0.01
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+  
+# Data Configuration
+data:
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+  synthetic_samples: 10000
+  augmentation_factor: 2
+  
+# Evaluation Configuration
+evaluation:
+  metrics: ["accuracy", "precision", "recall", "f1"]
+  save_predictions: true
+  confusion_matrix: true

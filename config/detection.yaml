@@ -1,0 +1,47 @@
+# Detection Configuration
+detection:
+  # Anomaly thresholds
+  anomaly_threshold: 0.7
+  severity_threshold: 0.8
+  confidence_threshold: 0.6
+  
+  # Time windows for analysis
+  window_size: 60  # seconds
+  sliding_window: 10  # seconds
+  
+  # Feature extraction
+  features:
+    - timestamp
+    - log_level
+    - source_ip
+    - user_agent
+    - request_path
+    - response_code
+    - message_length
+    - entropy
+    - rare_words
+    
+  # Pattern matching rules
+  patterns:
+    suspicious_ips:
+      - "192.168.1.100"
+      - "10.0.0.50"
+    
+    attack_signatures:
+      - "sql injection"
+      - "xss"
+      - "path traversal"
+      - "buffer overflow"
+      
+    anomalous_patterns:
+      - "failed login"
+      - "unauthorized access"
+      - "privilege escalation"
+      - "unusual user agent"
+      
+# Real-time processing
+processing:
+  buffer_size: 1000
+  batch_processing: true
+  parallel_workers: 4
+  timeout: 30

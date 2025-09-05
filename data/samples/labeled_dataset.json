@@ -1,0 +1,32 @@
+[
+  {
+    "message": "User admin logged in successfully from 192.168.1.50",
+    "raw_log": "2024-01-15 10:00:00 [INFO] User admin logged in successfully from 192.168.1.50",
+    "is_anomaly": false,
+    "timestamp": "2024-01-15T10:00:00Z"
+  },
+  {
+    "message": "HTTP GET /api/users/profile - Status: 200 - 45ms",
+    "raw_log": "2024-01-15 10:00:05 [INFO] HTTP GET /api/users/profile - Status: 200 - 45ms",
+    "is_anomaly": false,
+    "timestamp": "2024-01-15T10:00:00Z"
+  },
+  {
+    "message": "Failed login attempt from 192.168.1.100 - Invalid credentials",
+    "raw_log": "2024-01-15 10:01:00 [ERROR] Failed login attempt from 192.168.1.100 - Invalid credentials",
+    "is_anomaly": true,
+    "timestamp": "2024-01-15T10:00:00Z"
+  },
+  {
+    "message": "SQL injection attempt detected: SELECT * FROM users WHERE id='1' OR '1'='1'",
+    "raw_log": "2024-01-15 10:01:05 [ERROR] SQL injection attempt detected: SELECT * FROM users WHERE id='1' OR '1'='1'",
+    "is_anomaly": true,
+    "timestamp": "2024-01-15T10:00:00Z"
+  },
+  {
+    "message": "Unauthorized access attempt to /admin/panel",
+    "raw_log": "2024-01-15 10:01:10 [CRITICAL] Unauthorized access attempt to /admin/panel",
+    "is_anomaly": true,
+    "timestamp": "2024-01-15T10:00:00Z"
+  }
+]

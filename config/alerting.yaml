@@ -1,0 +1,74 @@
+# Alerting Configuration
+alerting:
+  # Alert channels
+  channels:
+    email:
+      enabled: true
+      smtp_host: "${SMTP_HOST}"
+      smtp_port: "${SMTP_PORT}"
+      username: "${SMTP_USERNAME}"
+      password: "${SMTP_PASSWORD}"
+      recipients:
+        - "${ALERT_EMAIL}"
+        - "security@company.com"
+      
+    slack:
+      enabled: true
+      webhook_url: "${SLACK_WEBHOOK_URL}"
+      channel: "#security-alerts"
+      
+    webhook:
+      enabled: false
+      url: "https://your-webhook-endpoint.com/alerts"
+      headers:
+        Authorization: "Bearer your-token"
+        
+  # Alert rules
+  rules:
+    high_severity:
+      threshold: 0.9
+      cooldown: 300  # 5 minutes
+      channels: ["email", "slack"]
+      
+    medium_severity:
+      threshold: 0.7
+      cooldown: 600  # 10 minutes
+      channels: ["slack"]
+      
+    low_severity:
+      threshold: 0.5
+      cooldown: 1800  # 30 minutes
+      channels: ["webhook"]
+      
+  # Alert templates
+  templates:
+    email:
+      subject: "🚨 LogLens Security Alert - {severity} Severity"
+      body: |
+        Security Alert Detected
+        
+        Time: {timestamp}
+        Severity: {severity}
+        Confidence: {confidence}
+        
+        Log Entry:
+        {log_message}
+        
+        Anomaly Details:
+        {anomaly_details}
+        
+        Source: {source}
+        
+        Please investigate immediately.
+        
+    slack:
+      message: |
+        🚨 *Security Alert Detected*
+        
+        *Severity:* {severity}
+        *Time:* {timestamp}
+        *Confidence:* {confidence}%
+        
+        *Log:* `{log_message}`
+        
+        *Details:* {anomaly_details}
